@@ -156,6 +156,10 @@ section {
   min-height: fit-content;
 }
 
+
+
+
+
 .section-container {
   display: flex;
 }
@@ -191,13 +195,27 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  
+  margin-bottom: 1.5rem;
 }
 
 .section__text__p3 {
   font-size: 0.75rem;
-  margin-bottom: 1rem;
+  
 }
+
+.section__text__pa {
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.section__text__pb {
+  font-size: 0.75rem;
+  margin-bottom: 1.5rem;
+  
+
+}
+
 
 .section__text__p5 {
   text-align: center;
@@ -206,12 +224,31 @@ section {
 .title {
   font-size: 3rem;
   text-align: left;
+  margin-bottom: 1px;
 }
 
 .title1 {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
 }
+
+
+.title2 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: rgb(85, 85, 85);
+}
+
+.title4 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+}
+
 
 #socials-container {
   display: flex;
@@ -219,6 +256,7 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
+
 
 /* ICONS */
 
@@ -229,9 +267,15 @@ section {
 
 /* BUTTONS */
 
-.btn-container {
+.btn-container1 {
   display: flex;
   justify-content: left;
+  gap: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -279,6 +323,8 @@ section {
 
 #about {
   position: relative;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .about-containers {
@@ -299,11 +345,20 @@ section {
 }
 
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+.about-containers1 {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  gap: 2rem;
+  justify-content: center;
 }
+
+.about-containers2 {
+  display: flex;
+  justify-content: center; /* Esto alinea ambos contenedores de manera uniforme */
+  gap: 2rem;
+}
+
 
 .details-container {
   padding: 1.5rem;
@@ -313,19 +368,49 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  
+  
 }
 
 .section-container {
   gap: 4rem;
   height: 80%;
+  justify-content: center;
+}
+
+ha {
+  font-weight: bold;
+}
+
+pa {
+  text-align: center; /* Asegura que el texto esté centrado */
+  align-content: center;
 }
 
 
-/* EXPERIENCE SECTION */
-
-#experience {
-  position: relative;
+.icon1 {
+  width: 40px; /* Tamaño del icono */
+  height: 40px;
+  margin-bottom: 0px; /* Espacio entre el icono y el texto */
 }
+
+
+.details-container1 {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección para que el ícono esté arriba */
+  align-items: center; /* Centra los íconos y el texto en el contenedor */
+  padding: 20px;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+
+
+
+
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
@@ -334,11 +419,7 @@ section {
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+
 
 .article-container {
   display: flex;
@@ -352,12 +433,13 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: left;
   gap: 0.5rem;
 }
 
 article .icon {
   cursor: default;
+  
 }
 
 /* PROJECTS SECTION */
@@ -391,7 +473,16 @@ article .icon {
 .section__text__p4 {
   font-size: 0.75rem;
   margin-bottom: 1rem;
-  text-align: left;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.section__text__pc {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+
 }
 
 /* CONTACT */
