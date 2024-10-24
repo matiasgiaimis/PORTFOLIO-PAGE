@@ -477,6 +477,13 @@ article .icon {
   text-align: center;
 }
 
+.section__text__p5 {
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
 .section__text__pc {
   font-size: 1rem;
   margin-bottom: 1rem;
